@@ -1,0 +1,21 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home-container{
+    padding-top: 50px;
+  }
+  
+  .intro-card{
+    padding-top: 15px;
+  }
+  .toolbar-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .toolbar-buttons button {
+    color: black;
+  }
+  
