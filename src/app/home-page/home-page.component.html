@@ -1,0 +1,70 @@
+<!-- Home Page HTML -->
+<mat-toolbar color="primary" class="main-header">
+  <span>Welcome to My CV</span>
+  
+  <!-- Buttons in the toolbar -->
+  <span class="toolbar-buttons">
+    <button mat-button (click)="scrollTo('about-me')">About Me</button>
+    <button mat-button (click)="scrollTo('experience')">Experience</button>
+    <button mat-button (click)="scrollTo('projects')">Projects</button>
+    <button mat-button (click)="scrollTo('education')">Education</button>
+    <button mat-button (click)="scrollTo('contact')">Contact</button>
+  </span>
+</mat-toolbar>
+
+<div class="home-container">
+  <mat-card id="skills" class="intro-card">
+    <mat-card-header>
+      <mat-card-title>About Me</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        Your About Me content here.
+      </p>
+    </mat-card-content>
+  </mat-card>
+  
+  <mat-card id="experience" class="intro-card">
+    <mat-card-header>
+      <mat-card-title>Experience</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        Your experience content here.
+      </p>
+    </mat-card-content>
+  </mat-card>
+  
+  <mat-card id="projects" class="intro-card">
+    <mat-card-header>
+      <mat-card-title>Projects</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        Your projects content here.
+      </p>
+    </mat-card-content>
+  </mat-card>
+  
+  <mat-card id="education" class="intro-card">
+    <mat-card-header>
+      <mat-card-title>Education</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        Your education content here.
+      </p>
+    </mat-card-content>
+  </mat-card>
+  
+  <mat-card id="contact" class="intro-card">
+    <mat-card-header>
+      <mat-card-title>Contact</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        Your contact content here.
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>
